@@ -2,6 +2,10 @@ name: github.packages.tf
 
 on: { push }
 
+permissions:
+  contents: write
+  packages: write
+
 jobs:
   goreleaser:
     name: Release
