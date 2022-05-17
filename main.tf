@@ -1,8 +1,8 @@
 terraform {
   required_providers {
     stripe = {
-      source = "franckverrot/stripe"
-      version = "1.7.0"
+      source  = "michieldewilde/stripe"
+      version = "1.7.1"
     }
   }
 }
@@ -185,3 +185,4 @@ resource "stripe_price" "my_graduated_price" {
     unit_amount = 100
   }
 }
+
